@@ -34,3 +34,7 @@ a {
 .main-header {
   font-size: 1.6rem;
 }
+
+.perfil-img {
+  max-width: 10rem;
+}
