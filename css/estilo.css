@@ -62,3 +62,8 @@ a {
   background-color: var(--secondary-color-light);
   padding-right: 1rem;
 }
+
+.main-nav li {
+  border-bottom: 1px solid #7b7b7b;
+  padding: 0.4rem 0;
+}
