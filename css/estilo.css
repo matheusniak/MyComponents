@@ -3,6 +3,13 @@
   --secondary-color: #31333b;
 }
 
+body {
+  display: flex;
+  margin: 0;
+  color: #e7e7e7;
+  background-color: #444856;
+}
+
 .main-header {
   width: 260px;
   background-color: var(--secondary-color);
