@@ -29,3 +29,8 @@ body {
 a {
   color: inherit;
 }
+
+.main,
+.main-header {
+  font-size: 1.6rem;
+}
