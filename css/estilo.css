@@ -15,6 +15,32 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   min-height: 100vh;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #b3b3b3;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  margin: 0;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+article {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .main-header {
@@ -25,6 +51,7 @@ body {
 .main {
   background-color: var(--secondary-color-light);
   flex: 1 0;
+  padding: 6.5rem 6rem 7.5rem;
 }
 
 a {
