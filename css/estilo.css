@@ -8,9 +8,15 @@ body {
   margin: 0;
   color: #e7e7e7;
   background-color: #444856;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .main-header {
   width: 260px;
   background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: #444856;
 }
