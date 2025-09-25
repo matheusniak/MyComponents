@@ -95,7 +95,8 @@ a {
   background-color: transparent;
 }
 
-.main-nav ul a:hover {
+.main-nav ul a:hover,
+.main-nav ul a:focus {
   background-color: var(--secondary-color-light);
   padding-right: 1rem;
 }
