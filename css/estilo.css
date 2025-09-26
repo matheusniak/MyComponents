@@ -142,6 +142,10 @@ a {
   justify-content: space-between;
 }
 
+.row .row {
+  padding-top: 0;
+}
+
 .row > * {
   flex: 1 0 0%;
 }
