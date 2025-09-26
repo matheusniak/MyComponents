@@ -145,3 +145,16 @@ a {
 .row > * {
   flex: 1 0 0%;
 }
+
+.alternate {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.alternate li {
+  padding: 0;
+}
+
+.alternate li:not(:last-child) {
+  border-bottom: 2px solid;
+}
