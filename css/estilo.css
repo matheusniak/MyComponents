@@ -174,14 +174,21 @@ a {
 
 input,
 label,
-textarea {
+textarea,
+select {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
 input,
-textarea {
+textarea,
+select {
   background-color: #ccc;
   padding: 1.2rem;
   border-radius: 5px;
@@ -200,4 +207,8 @@ textarea {
 .btn:hover,
 .btn:focus {
   background-color: var(--secondary-color-dark);
+}
+
+.form-quiz {
+  width: calc(50% - 1.5rem);
 }
