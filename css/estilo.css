@@ -241,3 +241,41 @@ select {
   margin-left: 0;
   margin-top: 2rem;
 }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td:last-child,
+.table th:last-child {
+  text-align: right;
+  /* aqui é mais específico do que apenas 
+  '.table th', então por isso mesmo o '.table th' 
+  estando depois formatando todos th com left, 
+  esse aqui prevalece para o last-child */
+}
+
+.table td,
+.table th {
+  padding: 1.6rem;
+}
+
+.table:not(.table-alternate) td,
+.table:not(.table-alternate) th {
+  border-bottom: 2px solid var(--secondary-color-dark);
+}
+
+.table th {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.table-alternate tbody tr:nth-child(odd) {
+  background-color: var(--secondary-color);
+}
+
+.table-verticalLines td:not(:last-child),
+.table-verticalLines th:not(:last-child) {
+  border-right: 1px solid var(--secondary-color-dark);
+}
