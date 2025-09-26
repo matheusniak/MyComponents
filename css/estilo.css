@@ -212,3 +212,7 @@ select {
 .form-quiz {
   width: calc(50% - 1.5rem);
 }
+
+.btn-stroke {
+  background-color: transparent;
+}
