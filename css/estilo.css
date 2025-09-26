@@ -26,6 +26,27 @@ body {
   background-attachment: fixed;
 }
 
+.link-icon {
+  display: inline-block;
+  margin-right: 3rem;
+  transition: color 0.3s;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link-icon svg {
+  width: 4rem;
+  height: 4rem;
+  fill: currentColor;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.link-icon:hover {
+  color: var(--primary-color);
+}
+
 h1 {
   font-size: 4rem;
   color: #b3b3b3;
