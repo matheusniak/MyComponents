@@ -139,4 +139,9 @@ a {
   display: flex;
   gap: 1.5em;
   padding-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.row > * {
+  flex: 1 0 0%;
 }
