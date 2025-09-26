@@ -158,3 +158,11 @@ a {
 .alternate li:not(:last-child) {
   border-bottom: 2px solid;
 }
+
+.roman {
+  list-style-type: upper-roman;
+}
+
+.list-emoji {
+  list-style-type: "\1F642";
+}
