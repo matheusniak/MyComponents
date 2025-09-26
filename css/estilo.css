@@ -166,3 +166,20 @@ a {
 .list-emoji {
   list-style-type: "\1F642";
 }
+
+input,
+label,
+textarea {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  background-color: #ccc;
+  padding: 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 1.6rem;
+  border: 0;
+}
