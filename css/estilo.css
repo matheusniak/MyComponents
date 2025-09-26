@@ -49,6 +49,10 @@ article {
   padding: 1em 0;
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
 .underline {
   text-decoration: red wavy underline;
 }
@@ -124,4 +128,14 @@ a {
 .card_title {
   font-size: 1.75em;
   margin-bottom: 0.25em;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 1.5em;
+  padding-top: 1.5rem;
 }
